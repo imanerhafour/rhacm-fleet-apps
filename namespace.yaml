@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: rhacs-web-app
+  labels:
+    app: rhacs-web-app
+    managed-by: rhacm
+    cluster: rhacs
